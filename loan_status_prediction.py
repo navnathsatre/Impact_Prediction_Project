@@ -1,5 +1,5 @@
 #%%writefile myapp.py
-
+import sklearn
 import pandas as pd
 import numpy as np
 import warnings
@@ -124,10 +124,3 @@ def main():       # this is the main function in which we define our webpage  (f
      
 if __name__=='__main__': 
     main()
-
-# from pyngrok import ngrok 
-
-# public_url = ngrok.connect('8501')
-# public_url
-
-# !streamlit run myapp.py &>/dev/null&
