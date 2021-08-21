@@ -9,7 +9,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 html_temp = """ 
 <div style ="background-color:	#98FB98;padding:13px"> 
-<H1 style ="color:black;text-align:center;">Loan Status Prediction</H1> 
+<H1 style ="color:black;text-align:center;"> Impact Prediction Project(Loan Status)</H1> 
 </div> 
 """  
 st.markdown(html_temp, unsafe_allow_html = True)     # display the front end aspect
